@@ -1,3 +1,0 @@
-dominic@sdsu.edu,AIEverywhere,Dominic Dabish,1234567,teacher,CS 150;CS 160;CS 210
-john@sdsu.edu,pass,John Smith,2345678,teacher,CS 240;CS 250;CS 320
-sarah@sdsu.edu,pass,Sarah Johnson,3456789,teacher,CS 370;CS 420;CS 450
