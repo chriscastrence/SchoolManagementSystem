@@ -3,11 +3,10 @@ import javax.swing.*;
 
 public class SDSU_App {
     public static void main(String[] args) {
-        System.out.println("Initializing application..."); // Debug print
-        Course.initializeCourses();  // Make sure this runs first
-        System.out.println("Courses initialized"); // Debug print
-        loadStudentsIntoCourses();   // Then load students
-        System.out.println("Students loaded"); // Debug print
+        Course.initializeCourses();  
+        System.out.println("Courses initialized"); 
+        loadStudentsIntoCourses();   
+        System.out.println("Students loaded"); 
         SwingUtilities.invokeLater(() -> {
             new LoginFrame();
         });
