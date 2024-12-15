@@ -1,9 +1,4 @@
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 import javax.swing.JOptionPane;
 import javax.swing.JTextArea;
 
@@ -68,7 +63,7 @@ public class Course {
         return -1;
     }
 
-    // Initialize all courses with their specific units and add them to the course tree
+    // Create course objects
     public static void initializeCourses() {
         createCourse("CS 150", 150, 3);
         createCourse("CS 150L", 8150, 1);
